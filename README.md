@@ -10,7 +10,7 @@ Idées de noms
 Participants au projet
 ===
 
-- ejeberbi
+- Jejeberbi
 - Fayedu39
 - ExeOmnia
 - Tsigorf
