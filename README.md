@@ -1,7 +1,7 @@
 Projet en fucking developpement
 =======
 
-Id�es de noms
+Idées de noms
 ====
 
 - Creatorium
@@ -13,4 +13,4 @@ Participants au projet
 - Jejeberbi
 - Fayedu39
 - ExeOmnia
-- Tsigorf
+- Asphähyre
