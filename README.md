@@ -6,6 +6,7 @@ Idées de noms
 
 - Creatorium
 - Imaginorium
+- Creatores mundi
 
 Participants au projet
 ===
