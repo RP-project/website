@@ -1,0 +1,45 @@
+body, html {
+	margin:0;
+	font-family:Verdana,Arial,sans-serif;
+}
+
+#backgroundImage {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:-1;
+}
+
+#header {
+	padding:20px;
+	margin:25px;
+	background:#FFFFFF;
+	border:5px solid #DFAA95;
+}
+#headerLogo {
+	width:90px;
+	width:90px;
+}
+
+#speedbar {
+	margin-top:15px;
+	margin-bottom:-15px;
+}
+#speedbar a {
+	text-decoration:none;
+	border:5px solid #DFAA95;
+	border-radius:2px 2px 0 0;
+	padding:5px;
+	color:black;
+}
+#speedbar a:hover {
+	background:#FFBAA5;
+	color:black;
+}
+
+#userbox {
+	float:right;
+	border:5px solid #DFAA95;
+	padding:5px;
+}

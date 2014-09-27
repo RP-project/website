@@ -1,0 +1,1 @@
+<img id="backgroundImage" src="templates/images/background.jpg"/>
