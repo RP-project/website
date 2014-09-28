@@ -3,6 +3,13 @@ body, html {
 	font-family:Verdana,Arial,sans-serif;
 }
 
+a {
+	color:#0040FF;
+}
+a:hover {
+	color:#50A0FF;
+}
+
 #backgroundImage {
 	position:fixed;
 	top:0;
@@ -14,6 +21,7 @@ body, html {
 #header {
 	padding:20px;
 	margin:25px;
+	height:125px;
 	background:#FFFFFF;
 	border:5px solid #DFAA95;
 }
@@ -23,13 +31,12 @@ body, html {
 }
 
 #speedbar {
-	margin-top:15px;
-	margin-bottom:-15px;
+	margin-top:25px;
 }
 #speedbar a {
 	text-decoration:none;
 	border:5px solid #DFAA95;
-	border-radius:2px 2px 0 0;
+	border-radius:3px 3px 0 0;
 	padding:5px;
 	color:black;
 }
@@ -41,5 +48,9 @@ body, html {
 #userbox {
 	float:right;
 	border:5px solid #DFAA95;
+	border-radius:3px;
+	margin:-15px;
 	padding:5px;
+	width:180px;
+	height:135px;
 }
