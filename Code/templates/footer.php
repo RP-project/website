@@ -1,1 +1,1 @@
-<div id="footer"></div>
+<div id="footer">	Copyleft RP-Project 2014</div>

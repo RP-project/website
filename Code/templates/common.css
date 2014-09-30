@@ -1,6 +1,7 @@
 body, html {
 	margin:0;
 	font-family:Verdana,Arial,sans-serif;
+	font-size:16px;
 }
 
 a {
@@ -24,6 +25,9 @@ a:hover {
 	height:125px;
 	background:#FFFFFF;
 	border:5px solid #DFAA95;
+	background-image:url(templates/images/banner.png);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 #headerLogo {
 	width:90px;
@@ -39,6 +43,7 @@ a:hover {
 	border-radius:3px 3px 0 0;
 	padding:5px;
 	color:black;
+	background:rgba(255,255,255,0.4);
 }
 #speedbar a:hover {
 	background:#FFBAA5;
@@ -48,9 +53,17 @@ a:hover {
 #userbox {
 	float:right;
 	border:5px solid #DFAA95;
+	background:rgba(255,255,255,0.4);
 	border-radius:3px;
 	margin:-15px;
 	padding:5px;
 	width:180px;
 	height:135px;
+}
+
+#footer {
+	padding:20px;
+	margin:25px;
+	background:#FFFFFF;
+	border:5px solid #DFAA95;
 }
