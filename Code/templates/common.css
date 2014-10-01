@@ -61,6 +61,13 @@ a:hover {
 	height:135px;
 }
 
+#body {
+	background:#FFFFFF;
+	border:5px solid #DFAA95;
+	margin:25px;
+	padding:20px;
+}
+
 #footer {
 	padding:20px;
 	margin:25px;
