@@ -1,0 +1,16 @@
+.homeBox {
+	width:400px;
+	height:400px;
+	float:left;
+}
+.homeBox:nth-child(2n) {
+	float:right;
+}
+.homeBoxContainer {
+	width:1006px;
+	margin:auto;
+}
+.homeBox h2 {
+	text-align:center;
+	margin-top:0px;
+}

@@ -19,12 +19,15 @@ a:hover {
 	z-index:-1;
 }
 
-#header {
-	padding:20px;
-	margin:25px;
-	height:125px;
-	background:#FFFFFF;
+.block, #body, #header, #footer {
 	border:5px solid #DFAA95;
+	margin:25px;
+	padding:20px;
+	background:#FFFFFF;
+}
+
+#header {
+	height:125px;
 	background-image:url(templates/images/banner.png);
 	background-repeat:no-repeat;
 	background-position:center;
@@ -61,16 +64,6 @@ a:hover {
 	height:135px;
 }
 
-#body {
-	background:#FFFFFF;
-	border:5px solid #DFAA95;
-	margin:25px;
-	padding:20px;
-}
-
 #footer {
-	padding:20px;
-	margin:25px;
-	background:#FFFFFF;
-	border:5px solid #DFAA95;
+	clear:both;
 }
