@@ -1,0 +1,11 @@
+Conception
+Définir les fonctions : done
+Définir les modules : done
+Définir la structure graphique : done
+
+Réalisation
+Création du code de base : done
+Finalisation du squelette graphique
+Base de données : système utilisateur
+Connexion et inscription utilisateur
+Codage modules, un par un
