@@ -59,9 +59,15 @@ a:hover {
 	background:rgba(255,255,255,0.4);
 	border-radius:3px;
 	margin:-15px;
+	margin-bottom:0;
 	padding:5px;
 	width:180px;
-	height:135px;
+	height:115px;
+}
+
+#searchBox {
+	float:right;
+	clear:both;
 }
 
 #footer {
