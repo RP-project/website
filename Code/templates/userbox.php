@@ -11,7 +11,7 @@
 				<input type="password" placeholder="Mot de passe" name="password"/><br/>
 				<input type="submit" value="Connexion"/>
 			</form>
-			<a href="#">S'inscrire</a>
+			<a href="register.html">S'inscrire</a>
 		<?php }
 	?>
 </div>
