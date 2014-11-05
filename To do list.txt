@@ -5,7 +5,21 @@ Définir la structure graphique : done
 
 Réalisation
 Création du code de base : done
-Finalisation du squelette graphique
-Base de données : système utilisateur
-Connexion et inscription utilisateur
-Codage modules, un par un
+Finalisation du squelette graphique : done
+
+
+TRAVAIL A FAIRE ET EN COURS :
+Système utilisateurs :
+- Inscription, connexion : partiellement fait
+- Systèmes de groupes
+- Système de gestion de droits selon les groupes (à pouvoir modifier facilement quand on ajoutera les modules d'écriture, forum, etc..)
+- Système de profils avec options stantards :
+-- Pseudo
+-- Avatars
+-- Champs de profils (sur table séparé, pour en ajouter simplement) : localisation, age, sexe, ce genre de conneries
+-- Signature
+- Premier panneau d'administration avec options :
+-- Rajouter des champs de profils
+-- Réglage des options PHP (pour le moment que les id SQL)
+-- Gestion des membres
+- Premiers droits : modification des profils possible par les admins et accès au panneau d'admin
