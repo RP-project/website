@@ -2,11 +2,13 @@
 	
 	session_start();
 	
-	if(!isset($_SESSION["login"])) {
 	
-		$_SESSION["login"]=$_POST["login"];
+	
+	if(!isset($_SESSION["login"])) {
 		
-		$_SESSION["justRegistred"]=true;
+		if(isset($_POST["login"]) && isset($_POST["password"]) && isset($_POST["captcha_word"])) {
+			
+		}
 	
 	}
 	header("Location:./../register-end.html");

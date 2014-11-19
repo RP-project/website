@@ -73,3 +73,14 @@ a:hover {
 #footer {
 	clear:both;
 }
+
+.alert {
+	position:fixed;
+	width:500px;
+	margin-left:-275px;
+	left:50%;
+	padding:20px;
+	border:5px solid black;
+	background:white;
+	margin-top:20px;
+}
