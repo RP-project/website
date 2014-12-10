@@ -14,11 +14,6 @@
 		} else {
 			msg("Mot de passe incorrect");
 		}
-	
-	
-		// msg("Vous avez bien été connecté","info");
-		
-		// $_SESSION["login"]=$_POST["login"];
 		
 	} else {
 		msg("L'utilisateur associé à cet identifiant n'existe pas");
