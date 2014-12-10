@@ -15,4 +15,3 @@ Participants au projet
 - Jejeberbi
 - Fayedu39
 - ExeOmnia
-- Asphähyre | Heu on le garde lui ?
