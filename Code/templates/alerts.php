@@ -1,3 +1,4 @@
+<div id="alerts">
 <?php
 if(isset($_SESSION["alerts"])) {
 	foreach($_SESSION["alerts"] as $alert) {
@@ -7,3 +8,5 @@ if(isset($_SESSION["alerts"])) {
 	}
 	unset($_SESSION["alerts"]);
 }
+?>
+</div>

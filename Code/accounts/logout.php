@@ -1,11 +1,9 @@
 <?php
 	session_start();
 	
-	$_SESSION=array(
-		"alerts"=>array(array(
-			"type"=>"info",
-			"msg"=>"Vous avez bien été déconnecté"
-		))
-	);
+	$_SESSION=array();
 	
-	require("redirect.php");
+	require("../includes/alerts.php");
+	msg("Vous avez bien été déconnecté","info");
+	
+	require("../misc/redirect.php");

@@ -3,7 +3,7 @@
 		require(ABSPATH."templates/userbox.php");
 		require(ABSPATH."templates/searchbox.php");
 	?>
-	<img id="headerLogo" src="templates/images/logo.png"/>
+	<a href="./"><img id="headerLogo" src="templates/images/logo.png"/></a>
 	<?php
 		require(ABSPATH."templates/speedbar.php");
 	?>

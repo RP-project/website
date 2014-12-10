@@ -18,7 +18,7 @@
 			return mysqli_free_result($req);
 		}
 		public function exec($req) {
-			return mysqli_real_query($this->bdd,req);
+			return mysqli_real_query($this->bdd,$req);
 		}
 		public function fetchAll($req) {
 			$n=0;

@@ -12,8 +12,12 @@
 				<td><input type="password" name="password"/></td>
 			</tr>
 			<tr>
+				<td>Répéter le mot de passe</td>
+				<td><input type="password" name="rpassword"/></td>
+			</tr>
+			<tr>
 				<td>Entrez le texte de l'image :<br/><img src="misc/captcha.php"/></td>
-				<td><input type="text" name="captcha"/></td>
+				<td><input type="text" name="captcha_word"/></td>
 			</tr>
 		</table>
 		<input type="submit" value="S'inscrire"/>

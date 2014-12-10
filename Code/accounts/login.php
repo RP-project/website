@@ -1,10 +1,28 @@
 <?php
 	session_start();
 	
-	$_SESSION["login"]=$_POST["login"];
-	$_SESSION["alerts"][0]=array(
-		"type"=>"info",
-		"msg"=>"Vous avez bien été connecté"
-	);
+	require("../includes/alerts.php");
+	require("../includes/MySQLConfig.php");
+	require("../includes/MySQL.php");
+	require("functions.php");
 	
-	require("redirect.php");
+	if($user=getAccountByLogin($_POST["login"])) {
+	
+		if($user["password"]==cryptPassword($_POST["password"])) {
+			$_SESSION=$user;
+			msg("Bienvenue, ".$user["login"],"info");
+		} else {
+			msg("Mot de passe incorrect");
+		}
+	
+	
+		// msg("Vous avez bien été connecté","info");
+		
+		// $_SESSION["login"]=$_POST["login"];
+		
+	} else {
+		msg("L'utilisateur associé à cet identifiant n'existe pas");
+	}
+	
+	
+	require("../misc/redirect.php");
