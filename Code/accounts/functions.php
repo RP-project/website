@@ -7,7 +7,7 @@ function insertUser($login,$password) {
 	global $SQL_DB;
 	$password=cryptPassword($password);
 	$login=$SQL_DB->prepStr($login);
-	$req=$SQL_DB->exec("INSERT INTO ".SQL_TBL_PREFIX."users (login,nickname,password,grade) VALUES ('".$login."','".$login."','".$password."',1)");
+	$req=$SQL_DB->exec("INSERT INTO ".SQL_TBL_PREFIX."users (login,nickname,password,grade,register_date) VALUES ('".$login."','".$login."','".$password."',1,NOW())");
 }
 
 function getAccountByLogin($login) {
