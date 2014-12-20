@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client: localhost
--- Généré le: Mer 10 Décembre 2014 à 18:14
+-- Généré le: Sam 20 Décembre 2014 à 14:41
 -- Version du serveur: 5.5.24-log
 -- Version de PHP: 5.3.13
 
@@ -172,10 +172,23 @@ CREATE TABLE IF NOT EXISTS `rp_p_stories` (
   `published` tinyint(1) NOT NULL,
   `views` int(11) NOT NULL,
   `license` int(11) NOT NULL,
-  `type` int(11) NOT NULL,
+  `category` int(11) NOT NULL,
   `avg_grade` double NOT NULL,
+  `story_type` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `rp_p_stories_categories`
+--
+
+CREATE TABLE IF NOT EXISTS `rp_p_stories_categories` (
+  `id` int(11) NOT NULL,
+  `name` text NOT NULL,
+  `parent` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -276,7 +289,7 @@ CREATE TABLE IF NOT EXISTS `rp_p_users` (
   `biography` text NOT NULL,
   `register_date` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 

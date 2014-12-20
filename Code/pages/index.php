@@ -7,11 +7,11 @@
 		<h2>Derniers récits</h2>
 		<div>
 			<?php
-				$req=$SQL_DB->req('SELECT * FROM '.SQL_TBL_PREFIX.'stories ORDER BY id DESC LIMIT 0,4');
-				$datas=$SQL_DB->fetchAll($req);
+				$datas=getLastStories();
 				foreach($datas as $data) {
+					echo('<a href="read_story_'.$data["id"].'.html">');
 					echo($data['name']);
-					echo('<br/>');
+					echo('</a><br/>');
 				}
 			?>
 		</div>
