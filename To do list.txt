@@ -7,10 +7,12 @@ Réalisation
 Création du code de base : done
 Finalisation du squelette graphique : done
 
+TRAVAIL FAIT :
+Système utilisateurs :
+- Inscription, connexion : done
 
 TRAVAIL A FAIRE ET EN COURS :
 Système utilisateurs :
-- Inscription, connexion : partiellement fait
 - Systèmes de groupes
 - Système de gestion de droits selon les groupes (à pouvoir modifier facilement quand on ajoutera les modules d'écriture, forum, etc..)
 - Système de profils avec options stantards :

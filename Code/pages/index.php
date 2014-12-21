@@ -7,11 +7,9 @@
 		<h2>Derniers récits</h2>
 		<div>
 			<?php
-				$datas=getLastStories();
-				foreach($datas as $data) {
-					echo('<a href="read_story_'.$data["id"].'.html">');
-					echo($data['name']);
-					echo('</a><br/>');
+				$stories=getLastStories(5);
+				foreach($stories as $story) {
+					echo('<a href="read_story_'.$story["id"].'.html">'.$story['name'].'</a><br/>');
 				}
 			?>
 		</div>

@@ -1,0 +1,12 @@
+li .summary {
+	display:none;
+	font-size:12px;
+	padding:5px;
+	margin:2px;
+	float:right;
+	border:1px solid #bb9922;
+	background-color:#ffcc99;
+}
+li:hover .summary {
+	display:block;
+}
